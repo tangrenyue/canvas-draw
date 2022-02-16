@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Canvas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <div id="action" class="action">
+        <svg id="pen" class="icon active">
+            <use xlink:href="#icon-brush"></use>
+        </svg>
+        <svg  id="eraser" class="icon">
+            <use xlink:href="#icon-eraser"></use>
+        </svg>
+        <svg  id="clear" class="icon">
+            <use xlink:href="#icon-trash"></use>
+        </svg>
+        <svg  id="download" class="icon">
+            <use xlink:href="#icon-Download"></use>
+        </svg>
+    </div> 
+    <ol class="pickColor">
+        <li id="black" class="active"></li>
+        <li id="red" ></li>
+        <li id="yellow"></li>
+        <li id="blue"></li>
+        <li id="green"></li>
+    </ol>
+    <ol class="penSize">
+        <li id="thin" class="thin"></li>
+        <li id="thick" class="thick"></li>
+    </ol>
+    <script src="main.js"></script>
+    <script src="//at.alicdn.com/t/font_1108957_95jmqe36pnm.js"></script>
+</body>
+</html>
